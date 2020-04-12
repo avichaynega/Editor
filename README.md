@@ -5,7 +5,7 @@ In this exercise we partially implement the editor "ed" (editor without graphica
 you can read about "ed" editor by enter the command :
 
 ```bash
-    man ed
+man ed
 ```
 
 or read more at this link https://www.gnu.org/software/ed/manual/ed_manual.html .
