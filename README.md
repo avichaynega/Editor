@@ -85,4 +85,12 @@ The command runs editor "ed" according to the input contained in the input.txt f
   
     quit the editor.
   
-  
+  ###### run example :
+   after you compiled all cpp file run the command :
+   
+   ```
+   /.yourexefile < input.txt
+   
+   ```
+   
+  the input.txt is a file that contains the above editing commads.
