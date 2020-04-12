@@ -12,7 +12,7 @@ or read more at this link https://www.gnu.org/software/ed/manual/ed_manual.html 
 
 On the linux system, run the command:
 ```bash
-ed > input.txt
+ed < input.txt
 ```
 
 The command runs editor "ed" according to the input contained in the input.txt file.
