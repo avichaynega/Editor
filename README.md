@@ -8,7 +8,7 @@ you read more about "ed" by enter the command :
     man ed
 ```
 
-or read at this link https://www.gnu.org/software/ed/manual/ed_manual.html .
+or read more at this link https://www.gnu.org/software/ed/manual/ed_manual.html .
 
 On the linux system, run the command:
 ```bash
