@@ -2,7 +2,7 @@
 
 In this exercise we partially implement the editor "ed" (editor without graphical interface) attached to Linux.
 
-you read more about "ed" by enter the command :
+you can read about "ed" editor by enter the command :
 
 ```bash
     man ed
