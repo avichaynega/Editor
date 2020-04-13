@@ -93,4 +93,4 @@ The command runs editor "ed" according to the input contained in the input.txt f
    
    ```
    
-  the input.txt is a file that contains the above editing commads.
+- comment: input.txt is a file that contains the above editing commads.
