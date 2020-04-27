@@ -8,13 +8,13 @@ void Editor::loop(){
     Document doc;
     string line;
     //regular expression represent all strings that start with number and end with char n
-    regex end_with_n("([[:digit:]]+)(n)");
+    regex end_with_n("^(0|[1-9]\\d+?)(n)");
     
     //regular expression represent all strings that start with number and end with char d
-    regex end_with_d("([[:digit:]]+)(d)");
+    regex end_with_d("^(0|[1-9]\\d+?)(d)");
     
     //regular expression represent all strings with the pattern like : 8,7j
-    regex iandj("([[:digit:]]+)(,)([[:digit:]]+)(j)");
+    regex iandj("^(0|[1-9]\\d+?)(,)^(0|[1-9]\\d+?)(j)");
 
     //regular expression represent all strings with the pattern like : s/string1/string2/
     regex replace("(s/)(.+/)(.+/)");
