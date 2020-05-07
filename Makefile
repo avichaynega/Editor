@@ -11,4 +11,4 @@ Document.o: Document.cpp Document.h
 	g++ -std=c++11 -c Document.cpp
 
 clean:
-	rm -f *.o main 
+	rm -f *.o main POEM.txt
