@@ -8,10 +8,10 @@ void Editor::loop(){
     Document doc;
     string line;
     //regular expression represent all strings that start with number and end with char n
-    regex end_with_n("^(0|[1-9]\\d+?)(n)");
+    regex end_with_n("^0|([1-9]\\d)(\\d+)(n)$");
     
     //regular expression represent all strings that start with number and end with char d
-    regex end_with_d("^(0|[1-9]\\d+?)(d)");
+    regex end_with_d("^0|([1-9]\\d)(\\d+)(d)$");
     
     //regular expression represent all strings with the pattern like : 8,7j
     regex iandj("([[:digit:]]+)(,)([[:digit:]]+)(j)");
