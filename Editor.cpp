@@ -14,10 +14,10 @@ void Editor::loop(){
     regex end_with_d("^([1-9]+)(\\d*)(d)$");
     
     //regular expression represent all strings with the pattern like : 8,7j
-    regex iandj("([[:digit:]]+)(,)([[:digit:]]+)(j)");
+    regex iandj("^([1-9]+)(\\d*)(,)([1-9]+)(\\d*)(j)$");
 
     //regular expression represent all strings with the pattern like : s/string1/string2/
-    regex replace("(s/)(.+/)(.+/)");
+    regex replace("^(s/)(.+/)(.+/)$");
     
     while (getline(cin, line))
     {
