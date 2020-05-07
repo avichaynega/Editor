@@ -11,4 +11,4 @@ Document.o: Document.cpp Document.h
 	g++ -std=c++11 -c Document.cpp
 
 clean:
-	rm -f *.o main # Remove everything that match *.o and output
+	rm -f *.o main 
